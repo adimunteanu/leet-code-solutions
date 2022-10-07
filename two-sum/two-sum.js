@@ -1,4 +1,4 @@
-function twoSum(nums: number[], target: number): number[] {
+var twoSum = function(nums, target) {
   const numsMap = new Map();
 
   for (let i = 0; i < nums.length; i++) {
